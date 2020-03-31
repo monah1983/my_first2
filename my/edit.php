@@ -1,3 +1,13 @@
+<?php
+$db_user = "default";
+$db_pass ="secret";
+$dsn = 'pgsql:host=192.168.100.169; dbname=default';
+$pdo = new PDO($dsn, $db_user, $db_pass);
+$statement = $pdo->prepare("SELECT * FROM tasks WHERE id=:id");
+$statement->bindParam(":id", $_GET['id']);
+$statement->execute();
+$task = $statement->fetch(PDO::FETCH_ASSOC);
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,13 +25,14 @@
     <div class="row">
         <div class="col-md-12">
             <h1>Edit Task</h1>
-            <form action="store.php" method="post">
+            <form action="update.php?id=<?= $task['id'];?>" method="post">
+
                 <div class="form-group">
-                    <input type="text" class="form-control" name="title" value="Go to store">
+                    <input type="text" name="title" class="form-control" value="<?= $task['title'];?>">
                 </div>
 
                 <div class="form-group">
-                    <textarea name="content" class="form-control">bla vla</textarea>
+                    <textarea name="content" class="form-control"><?= $task['content'];?></textarea>
                 </div>
 
                 <div class="form-group">
