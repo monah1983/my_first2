@@ -1,12 +1,18 @@
 <?php
-$db_user = "default";
-$db_pass ="secret";
-$dsn = 'pgsql:host=192.168.100.169; dbname=default';
-$pdo = new PDO($dsn, $db_user, $db_pass);
-$statement = $pdo->prepare("SELECT * FROM tasks WHERE id=:id");
-$statement->bindParam(":id", $_GET['id']);
-$statement->execute();
-$task = $statement->fetch(PDO::FETCH_ASSOC);
+$id = $_GET['id'];
+
+function showTask ($id) {
+    $db_user = "default";
+    $db_pass ="secret";
+    $dsn = 'pgsql:host=192.168.100.198; dbname=default';
+    $pdo = new PDO($dsn, $db_user, $db_pass);
+    $statement = $pdo->prepare("SELECT * FROM tasks WHERE id=:id");
+    $statement->bindParam(":id", $id);
+    $statement->execute();
+    return $statement->fetch(PDO::FETCH_ASSOC);
+}
+
+$task = showTask    ($id);
 ?>
 <!doctype html>
 <html lang="en">
