@@ -1,19 +1,12 @@
 <?php
 
-$id - $_GET['id'];
+require 'database/QueryBuilder.php';
 
-function getTask($id) {
-    $db_user = "default";
-    $db_pass ="secret";
-    $dsn = 'pgsql:host=192.168.100.198; dbname=default';
-    $pdo = new PDO($dsn, $db_user, $db_pass);
-    $statement = $pdo->prepare("SELECT * FROM tasks WHERE id=:id");
-    $statement->bindParam(":id", $id);
-    $statement->execute();
-    return $statement->fetch(PDO::FETCH_ASSOC);
-};
+$db = new QueryBuilder;
 
-$task = getTask($id);
+$id = $_GET['id'];
+
+$task = $db->getTask($id);
 
 ?>
 
