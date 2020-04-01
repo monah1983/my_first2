@@ -1,20 +1,9 @@
 <?php
 //1. Connect to DB
+require 'database/QueryBuilder.php';
+$db = new QueryBuilder;
+$tasks = $db->getAllTasks()
 
-
-
-function getAllTasks () {
-    $db_user = "default";
-    $db_pass ="secret";
-    $dsn = 'pgsql:host=192.168.100.198; dbname=default';
-    $pdo = new PDO($dsn, $db_user, $db_pass);
-    $sql = "SELECT * FROM tasks";
-    $statement = $pdo->prepare($sql);
-    $result = $statement->execute();
-    $tasks = $statement->fetchAll(PDO::FETCH_ASSOC);
-    return $tasks;
-}
-$tasks = getAllTasks();
 ?>
 <!doctype html>
 <html lang="en">

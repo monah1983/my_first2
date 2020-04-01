@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ad97d45-f6bf-466f-b874-acd1e5e1efa1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/my/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/my-cool-app/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/show.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/store.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/update.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\my_first2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zwql1UmT1Tv3WQdPpsdWvJMLbZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ad97d45-f6bf-466f-b874-acd1e5e1efa1" name="Default Changelist" comment="" />
+      <created>1585760651371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585760651371</updated>
+      <workItem from="1585760655356" duration="968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/my_first2" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1585760973379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585760973379" />
+  </component>
+</project>
