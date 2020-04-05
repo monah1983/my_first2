@@ -3,9 +3,13 @@
 require 'database/QueryBuilder.php';
 $db = new QueryBuilder;
 $tasks = $db->getAllTasks()
+
 // Auth
+
 // register()
+
 // login()
+
 // logout()
 // currentUser()
 // check()
