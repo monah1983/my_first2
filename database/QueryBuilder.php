@@ -2,13 +2,10 @@
 class QueryBuilder {
 
     public $pdo;
-    public $db_user = "default";
-    public $db_pass ="secret";
-    public $dsn = 'pgsql:host=192.168.100.198; dbname=default';
 
     function __construct()
     {
-        $this->pdo =new PDO($this->$dsn, $this->$db_user, $this->$db_pass);
+        //$this->pdo =new PDO($this->$dsn, $this->$db_user, $this->$db_pass);
         $this->pdo = new PDO("pgsql:host=192.168.100.198; dbname=default", "default", "secret");
     }
     //Список задач
