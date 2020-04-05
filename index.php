@@ -3,6 +3,18 @@
 require 'database/QueryBuilder.php';
 $db = new QueryBuilder;
 $tasks = $db->getAllTasks()
+// Auth
+// register()
+// login()
+// logout()
+// currentUser()
+// check()
+// ...
+
+// ImageManager
+// upload($image) //
+// delete($path)
+// ...
 
 ?>
 <!doctype html>
@@ -20,6 +32,7 @@ $tasks = $db->getAllTasks()
 <body>
 <div class="container">
     <div class="row">
+        <a href="/login">Login</a>
         <div class="col-md-12">
             <h1>All Tasks</h1>
             <a href="create.php" class="btn btn-success">Add task</a>

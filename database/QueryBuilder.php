@@ -1,13 +1,22 @@
 <?php
 class QueryBuilder {
+
+    public $pdo;
+    public $db_user = "default";
+    public $db_pass ="secret";
+    public $dsn = 'pgsql:host=192.168.100.198; dbname=default';
+
+    function __construct()
+    {
+        $this->pdo =new PDO($this->$dsn, $this->$db_user, $this->$db_pass);
+        $this->pdo = new PDO("pgsql:host=192.168.100.198; dbname=default", "default", "secret");
+    }
     //Список задач
+
     function getAllTasks () {
-        $db_user = "default";
-        $db_pass ="secret";
-        $dsn = 'pgsql:host=192.168.100.198; dbname=default';
-        $pdo = new PDO($dsn, $db_user, $db_pass);
+
         $sql = "SELECT * FROM tasks";
-        $statement = $pdo->prepare($sql);
+        $statement = $this->pdo->prepare($sql);
         $result = $statement->execute();
         $tasks = $statement->fetchAll(PDO::FETCH_ASSOC);
         return $tasks;
